@@ -1,0 +1,54 @@
+name: lost_found_pet_prototype
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  line_icons: 
+  modal_progress_hud: 
+  datetime_picker_formfield: 
+  multi_image_picker2: ^5.0.2
+  flutter_swiper: 
+  incrementally_loading_listview: 
+  another_flushbar: ^1.10.25
+
+  provider: 
+  get_it: 
+  http: 
+  email_validator: 
+  json_annotation: 
+  timeago: 
+
+  firebase_auth: 
+  firebase_core: ^1.0.3
+  cloud_firestore: ^1.0.4
+  firebase_storage: ^8.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: 
+  json_serializable: 
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - images/pattern/
+
+  fonts:
+    - family: JosefinSans
+      fonts:
+        - asset: fonts/JosefinSans-Regular.ttf
+        - asset: fonts/JosefinSans-SemiBold.ttf
+          weight: 600
+        - asset: fonts/JosefinSans-Bold.ttf
+          weight: 700

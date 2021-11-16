@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1060247705291",
+    "project_id": "lost-c5891",
+    "storage_bucket": "lost-c5891.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060247705291:android:e1d1d1786e73602f882d4e",
+        "android_client_info": {
+          "package_name": "com.harshita.lost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060247705291-321tr3ej6r9d5bumv9bluoo5qu97bmvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg8nwvW0FV4g5fSVLwhp3XXiv_kWCcu-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060247705291-321tr3ej6r9d5bumv9bluoo5qu97bmvl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1060247705291-mjng1e9v0liadruvr5niti57qr328ptm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.harshita.lost"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
