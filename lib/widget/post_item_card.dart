@@ -175,7 +175,7 @@ class PostListItem extends StatelessWidget {
     }
 
     void _selectAndNavigateToPost() {
-      Provider.of<SelectedPostModel>(context).setSelectedPost(post);
+      Provider.of<SelectedPostModel>(context, listen: false).setSelectedPost(post);
       Navigator.pushNamed(context, Routers.postDetails);
     }
 
